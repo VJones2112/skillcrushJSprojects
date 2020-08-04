@@ -16,28 +16,37 @@
 <body>
 
 <div id="calculatorContainer">
-<h1> Tip Calculator</h1>   
+<h1>Tip Calculator</h1>   
 <form id="calculatorForm">
+   
     <p>How much was your bill?</p>  
         $
-        <input id="billAmount" placeholder="Bill Amount">
+        <input id="billAmount" type="text" placeholder="Bill Amount">
+    
     <p>How was  your service?</p>
-        <select>
-        <option selected>--Choose an Option--</option>
-        <option>30% - Fabulous</option>
-        <option>20% - Good</option>
-        <option>15% - Okay</option>
-        <option>10% - Bad</option>
-        <option>5% - Terrible</option>
+        <select id="tipPercents">
+        <option disabled selected value="0">--Choose an Option--</option>
+        <option value="0.3" class="tipPercent">30% - Fabulous</option>
+        <option value="0.2" class="tipPercent">20% - Good</option>
+        <option value="0.15" class="tipPercent">15% - Okay</option>
+        <option value="0.1" class="tipPercent">10% - Bad</option>
+        <option value="0.05" class="tipPercent">5% - Terrible</option>
         </select>
+        
     <p>How many people are sharing the bill?</p>
-        <input id="billSharers"> people 
+        <input id="billSharers" type="text"> people 
+        
     <p id="buttonPara">
-        <button id="calculateTip">Calculate</button>
+        <button type="button" id="calculateTip">Calculate</button>
     </p>
+    
+    <div id="returnedAmounts">
+        <span id="result"></span>
+    </div>
+    
 </form>     
 </div>
-
+<script src="scripts.js"></script>
 </body>
 
 </html>
