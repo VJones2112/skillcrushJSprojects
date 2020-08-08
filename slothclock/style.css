@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #F7B538;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    color: #C32F27;
+    margin: 0 auto;
+    width: 500px;
+/*    border: 1px solid red;*/
+    text-align: center;
+    box-shadow: 2px 1px 12px black;
+    padding: 1rem 1rem 1rem 1rem;   
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+img {
+    padding: 1rem;
+    box-shadow: 2px 1px 12px black;
+}
+
+p {
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #C32F27;
+    color: #F7B538;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border-radius: .25rem;
+    border: 1px solid #C32F27;
+    margin: 1rem 0 0 0;
+    /*    box-shadow: 2px 1px 8px #780116;*/
+}
+
+.partyImage {
+    background: url(images/partysloth.png) no-repeat center;
+    display: block;
+    box-sizing: border-box;
+    width: 410px;
+    height: 430px;
+    padding: 2rem 1.5rem 2rem 420px;
+    margin: 0 auto;
+}
