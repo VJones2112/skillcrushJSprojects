@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Sloth Clock</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my version of Skillcrush's LOLCAT clock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/vico.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Sloth Clock</h1>
+
+    <p class="mainQuestion">Is it nap time?</p>
+
+    <h2 id="runningClock">#Clock#</h2>
+
+    <div id="images">
+        <img src="images/cutesloth1.png" id="changeImage" class="changeImg" alt="picture of sloth"> 
+     <blockquote id="messageText">Message goes here.</blockquote>
+    </div>
+
+    <div class="wake">
+        <p id="wakeTime">Set wake time
+            <select id="wakeTimes">
+                <option value="24">12am - 1am</option>
+                <option value="1">1am - 2am</option>
+                <option value="2">2am - 3am</option>
+                <option value="3">3am - 4am</option>
+                <option value="4">4am - 5am</option>
+                <option value="5">5am - 6am</option>
+                <option value="6">6am - 7am</option>
+                <option value="7">7am - 8am</option>
+                <option value="8">8am - 9am</option>
+                <option value="9">9am - 10am</option>
+                <option value="10">10am - 11am</option>
+                <option value="11">11am - 12pm</option>
+                <option value="12">12pm - 1pm</option>
+                <option value="13">1pm - 2pm</option>
+                <option value="14">2pm - 3pm</option>
+                <option value="15">3pm - 4pm</option>
+                <option value="16">4pm - 5pm</option>
+                <option value="17">5pm - 6pm</option>
+                <option value="18">6pm - 7pm</option>
+                <option value="19">7pm - 8pm</option>
+                <option value="20">8pm - 9pm</option>
+                <option value="21">9pm - 10pm</option>
+                <option value="22">10pm - 11pm</option>
+                <option value="23">11pm - 12am</option>
+            </select>
+        </p>
+    </div>
+
+    <div class="snack">
+        <p id="snackTime">Set snack time
+            <select>
+                <option>12am - 1am</option>
+                <option>1am - 2am</option>
+                <option>2am - 3am</option>
+                <option>3am - 4am</option>
+                <option>4am - 5am</option>
+                <option>5am - 6am</option>
+                <option>6am - 7am</option>
+                <option>7am - 8am</option>
+                <option>8am - 9am</option>
+                <option>9am - 10am</option>
+                <option>10am - 11am</option>
+                <option>11am - 12pm</option>
+                <option>12pm - 1pm</option>
+                <option selected>1pm - 2pm</option>
+                <option>2pm - 3pm</option>
+                <option>3pm - 4pm</option>
+                <option>4pm - 5pm</option>
+                <option>5pm - 6pm</option>
+                <option>6pm - 7pm</option>
+                <option>7pm - 8pm</option>
+                <option>8pm - 9pm</option>
+                <option>9pm - 10pm</option>
+                <option>10pm - 11pm</option>
+                <option>11pm - 12am</option>
+            </select>
+        </p>
+    </div>
+
+    <div class="nap">
+        <p id="napTime">Set nap time
+            <select>
+                <option>12am - 1am</option>
+                <option>1am - 2am</option>
+                <option>2am - 3am</option>
+                <option>3am - 4am</option>
+                <option>4am - 5am</option>
+                <option>5am - 6am</option>
+                <option>6am - 7am</option>
+                <option>7am - 8am</option>
+                <option>8am - 9am</option>
+                <option>9am - 10am</option>
+                <option>10am - 11am</option>
+                <option selected>11am - 12pm</option>
+                <option>12pm - 1pm</option>
+                <option>1pm - 2pm</option>
+                <option>2pm - 3pm</option>
+                <option>3pm - 4pm</option>
+                <option>4pm - 5pm</option>
+                <option>5pm - 6pm</option>
+                <option>6pm - 7pm</option>
+                <option>7pm - 8pm</option>
+                <option>8pm - 9pm</option>
+                <option>9pm - 10pm</option>
+                <option>10pm - 11pm</option>
+                <option>11pm - 12am</option>
+            </select>
+        </p>
+    </div>
+
+    <button id="partyTime" onclick="partyTimeImage()">Party Time!</button>
+
+    <script src="script.js"></script>
+    
+</body>
+
+<footer>
+    <p>Code by <a href="https://codepen.io/codifiedconcepts/pen/bwgxRq">Skillcrush</a></p>
+</footer>
+
+</html>
