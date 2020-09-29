@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Red+Rose:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: orange;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Red Rose', cursive; 
+}
+
+
+#calculatorContainer {
+    background-color: beige;
+    border-radius: 1rem;
+    width: 60%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    background-color: orange;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+p {
+    padding: 1.2rem 0 0 0;
+}
+
+input, select {
+    font-size: 1rem;
+}
+
+button {
+    background-color: orange;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    padding: 0.25rem;
+    border: none;
+    font-family: 'Pacifico', cursive;
+}
+
+#buttonPara {
+    text-align: center;
+}
+
+button:hover {
+    background-color: beige;
+    color: orange;
+    border: 1px solid orange;
+}
+
+#returnedAmounts {
+    height: 5rem;
+}

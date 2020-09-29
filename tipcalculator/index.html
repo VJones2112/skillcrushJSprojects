@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title></title>
+<meta charset="UTF-8">
+<meta name="description" content="This is what Google will show.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href=>
+<link rel="stylesheet" href="style.css">
+<script src="https://use.fontawesome.com/5db464c560.js"></script>
+</head>
+
+<body>
+
+<div id="calculatorContainer">
+<div id="header">
+<h1>Tip Calculator</h1>  
+</div> 
+<form id="calculatorForm">
+   
+    <p>How much was your bill?</p>  
+        $
+        <input id="billAmount" type="text" placeholder="Bill Amount">
+    
+    <p>How was  your service?</p>
+        <select id="tipPercents">
+        <option disabled selected>--Choose an Option--</option>
+        <option value="0.3" class="tipPercent">30% - Fabulous</option>
+        <option value="0.2" class="tipPercent">20% - Good</option>
+        <option value="0.15" class="tipPercent">15% - Okay</option>
+        <option value="0.1" class="tipPercent">10% - Bad</option>
+        <option value="0.05" class="tipPercent">5% - Terrible</option>
+        </select>
+        
+    <p>How many people are sharing the bill?</p>
+        <input id="billSharers" type="text"> people 
+        
+    <p id="buttonPara">
+        <button type="button" id="calculateTip">Calculate</button>
+    </p>
+    
+    <div id="returnedAmounts">
+        <span id="billResult"></span>
+        <br>
+        <span id="tipResult"></span>
+    </div>
+    
+</form>     
+</div>
+<script src="scripts.js"></script>
+</body>
+
+</html>
